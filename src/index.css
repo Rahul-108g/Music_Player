@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+
+
+/* mainpage */
+
+
+.bod{
+       width: 100vw;
+       height: 100vh;
+  background-image: url("../public/assets/img1/img-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.con{
+  color: white;
+  font-size: 50px;
+  font-family: "Concert One", serif;
+  font-weight: 400;
+  font-style: normal;
+
+ 
+}
+
+.con2{
+  animation: move 9s ease-in-out 1s infinite normal;
+}
+
+@keyframes move {
+  0%{
+    transform: translate(0px,0px);
+    box-shadow: 10px 10px 200px rgba(255, 255, 0, 0.956);
+    border-radius: 100%;
+
+  }
+  25%{
+    box-shadow: -10px -10px rgba(7, 201, 117, 0.495);
+    border-radius: 100%;
+    transform: translate(-200px,-100px);
+    
+  }
+  50%{
+    transform: translate(-200px,200px);
+  }
+  75%{
+    transform: scale(2);
+  }
+}
+
+
+/* navbar */
+
+.nab{
+  height: 70px;
+}
+.nab2{
+  background-color: rgba(112, 128, 144, 0.31);
+  border-radius: 64px;
+}
+.nab3{
+  box-shadow: 5px 5px 20px slategray;
+  font-family: "Concert One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.nab3:hover{
+  cursor: pointer;
+}
+
+/* side bar */
+
+.sd1{
+  box-shadow: 2px -5px 20px white;
+}
+
+/* player */
+.pl1{
+ 
+  position: fixed;  
+  z-index: 3; 
+width: 100%;
+right: 0px;
+  bottom: 0px;
+}
+
+.pl2{
+  position: static;
+  z-index: 2;
+}
+
+.pl3{
+  position: static;
+  z-index: 1;
+}
+.car:hover{
+  cursor: pointer;
+}
+
+
+
+
+.kon:hover{
+  background-color: aqua;
+}
+
+
+
+/* virtual page */
+.wrapper{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: rgba(189, 189, 189, 0.8);
+  z-index: 2;
+}
+
+.wrap{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+  z-index: 2;
+}
+.mon{
+  position: relative;
+  z-index: 1;   
+}
+
+/* about */
+
+.left{
+ float: left;
+}
+
+.fon1{
+  font-weight: bolder;
+  word-spacing: 10px;
+  line-height: 45px;
+
+}
+.out{
+ 
+  border-radius: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.in{
+  color: white;
+  font-size: 32px;
+}

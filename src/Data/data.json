@@ -1,0 +1,74 @@
+[
+  {
+    "id":1,
+"imgSrc":"img1/img-3.jpg",
+"text1":"Romantic Song",
+"text2":"Something_in_your_eyes",
+"audio":"Music/1.Something_in_your_eyes_(256k).mp3",
+"language":"eng"
+},
+{
+  "id":2,
+  "imgSrc":"img1/img-4.jpg",
+  "text1":"Ghost Song",
+  "text2":"the_untamed",
+  "audio":"Music/2.the_untamed_(256k).mp3",
+"language":"hindi"
+},
+{
+    "id":3,
+    "imgSrc":"img1/img-5.jpg",
+    "text1":"viral",
+    "text2":"Baby_Stop_Song",
+    "audio":"Music/3.Baby_Stop_Song__(256k).mp3",
+"language":"hindi"
+}
+,{
+      "id":4,
+      "imgSrc":"img1/img-6.jpg",
+      "text1":"Madhur dhun",
+      "text2":"Flute_Music",
+      "audio":"Music/4.Flute_Music_(256k).mp3",
+"language":"hindi"
+},
+{
+        "id":5,
+        "imgSrc":"img1/img-7.jpg",
+        "text1":"Krishan Song",
+        "text2":"Heart_Touching_Krishna",
+        "audio":"Music/5.Heart_Touching_Krishna_Flute_(256k).mp3",
+"language":"hindi"
+},
+        {
+          "id":6,
+          "imgSrc":"img1/img-8.jpg",
+          "text1":"Mahabharat",
+          "text2":"Mahabharat_song_",
+          "audio":"Music/6.Mahabharat_song_(256k).mp3",
+"language":"hindi"
+          },
+          {
+            "id":7,
+            "imgSrc":"img1/img-9.jpg",
+            "text1":"Flute",
+            "text2":"Jackie_Shroff_R",
+            "audio":"Music/7.Jackie_Shroff_R(256k).mp3",
+"language":"hindi"
+            },
+            {
+              "id":8,
+              "imgSrc":"img1/img-10.jpg",
+              "text1":"Surya Putra Karn",
+              "text2":"Nihaathe_Karn_Ko_Chhal",
+              "audio":"Music/8.Nihaathe_Karn_Ko_Chhal_Se_Mara_Gaya_(256k).mp3",
+"language":"hindi"
+              },
+              {
+                "id":9,
+                "imgSrc":"img1/img-11.jpg",
+                "text1":"Sri Krishan",
+                "text2":"Pahle_mutthi_me_lete_hi",
+                "audio":"Music/9.Pahle_mutthi_me_lete_hi_prabhu_ne_swarg_sudama_ke_naam_kiya_hai(256k).mp3",
+"language":"hindi"
+                }
+]
